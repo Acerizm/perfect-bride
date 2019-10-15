@@ -1,0 +1,240 @@
+@media only screen and (min-width:1200px){
+  #NavBarContainer{
+    height: 250px;
+    width: 100%;
+  }
+
+  #PerfectBrideLogo{
+    background-image:url("../../images/perfectBrideLogo.jpg");
+    height: 70%;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: calc((100% - 500px) / 2 );
+  }
+
+  #NavbarLinksContainer{
+    height: 30%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 25%;
+
+  }
+
+  .NavLink{
+    color: #c68803;
+    font-family: Arial;
+    font-size: 15px;
+  }
+
+  .link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:1199.99px){
+  #NavBarContainer{
+    height: 100px;
+    width: 100%;
+    /* border-bottom: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+     z-index: 10; 
+    background-color: #c68803;
+    top: 0;
+    align-items: center;
+  }
+  
+  #PerfectBrideHeadingContainer{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+  }
+  
+  #PerfectBrideHeading{
+    font-size: 40px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 100%;
+    font-family: Arial;
+  }
+  
+  #HamburgerMenu{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 100px; 
+    margin-left: calc(100% - 350px - 100px - 5% - 3%);
+  }
+
+
+  #NavbarLinksContainer{
+    height: 30%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 25%;
+
+  }
+
+  .NavLink{
+    color: #c68803;
+    font-family: Arial;
+    font-size: 15px;
+  }
+
+  .NavLink:hover{
+    color: #f1f1f1;
+  }
+
+  .link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width:767.99px){
+   #NavBarContainer{
+    height: 100px;
+    width: 100%;
+    /* border-bottom: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+     z-index: 10; 
+    background-color: #c68803;
+    top: 0;
+    align-items: center;
+  }
+  
+  #PerfectBrideHeadingContainer{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+  }
+  
+  #PerfectBrideHeading{
+    font-size: 40px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 100%;
+    font-family: Arial;
+  }
+  
+  #HamburgerMenu{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 100px; 
+    margin-left: calc(100% - 350px - 100px - 5% - 3%);
+  }
+
+
+  #NavbarLinksContainer{
+    height: 30%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 25%;
+
+  }
+
+  .NavLink{
+    color: #c68803;
+    font-family: Arial;
+    font-size: 15px;
+  }
+
+  .NavLink:hover{
+    color: #f1f1f1;
+  }
+
+  .link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+}

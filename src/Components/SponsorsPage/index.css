@@ -1,0 +1,430 @@
+@media only screen and (min-width:1200px){
+
+  #SponsorsPageContainer{
+    background-color: #f5ea74;
+    height: 200%;
+    width: 100%;
+  }
+
+  #SponsorTitle{
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 130px;
+    margin-left: calc((100% - 130px) / 2);
+  }
+
+  #Sponsor1{
+    height: calc(100% / 4);
+    width: 100%;
+    border-bottom: 2px dashed black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #Sponsor2{
+    height: calc(100% / 4);
+    width: 100%;
+    border-bottom: 2px solid black;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #CollectiveSponsorDesc{
+    height: calc(50% - 10%);
+    width: 100%;
+    /* background-color: green; */
+    border-bottom: 2px solid black;
+  }
+
+  #SponsorTextArea{
+    width: 60%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-left:5%;
+  }
+
+  #Sponsor1Image{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-image: url("../../images/Sponsor1.png");
+    border: 2px solid black;
+    margin-left: 10%;
+  }
+
+  #Sponsor2Image{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-image: url("../../images/Sponsor2.jpg");
+    border: 2px solid black;
+    margin-left: 10%;
+  }
+
+  .FirstSponsorText{
+    margin-bottom: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .SecondSponsorText{
+    margin-bottom: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .ThirdSponsorText{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #CollectiveSponsorDesc{
+    height: 49%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../images/SponsorsFashionShow.jpg");
+    position: relative;
+  }
+
+  #CollectiveSponsorTextBox{
+    /* background-color: black; */
+    /* background-color: transparent; */
+    background-color: rgb(4, 23, 31);
+    opacity: 0.8;
+    height: 250px;
+    width: 65%;
+    min-width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+    margin-right: 2%;
+    border-radius: 10px;
+  }
+
+  #InnerCollectiveSponsorText{
+    width: 95%;
+    height: 80%;
+    /* border: 2px solid red; */
+    font-size: 30px;
+  }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1199.99px){
+  #SponsorsPageContainer{
+    /*background-color: #f5ea74;*/
+    background-color: black;
+    height: 100%;
+    width: 100%;
+  }
+
+  #SponsorTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    /*margin-left: calc((100% - 130px) / 2);*/
+    height: 10%;
+    /*border: 2px solid green;*/
+  }
+
+  #Sponsor1{
+    height: calc(30%);
+    width: 100%;
+    border-bottom: 5px solid #c68803;
+    border-top: 5px solid #c68803;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*border: 2px solid red;*/
+  }
+
+  #Sponsor2{
+    height: calc(30%);
+    width: 100%;
+    /*border-bottom: 2px solid black;*/
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     border-bottom: 5px solid #c68803;
+    /*border: 5px solid blue;*/
+  }
+
+  #CollectiveSponsorDesc{
+    height: calc(50% - 10%);
+    width: 100%;
+    /* background-color: green; */
+    border-bottom: 2px solid black;
+  }
+
+  .SponsorTextArea{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:5%;
+    /*border: 5px solid grey;*/
+  }
+  
+  #SponsorTextArea1 {
+    margin-right: 5%;
+  }
+
+  #Sponsor1Image{
+    /*width: 300px;*/
+    /*height: 300px;*/
+    width: 250px;
+    height: 250px;
+    /*border-radius: 200px;*/
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-image: url("../../images/Sponsor1.png");
+    /*border: 2px solid red;*/
+    margin-left: 5%;
+  }
+
+  #Sponsor2Image{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-image: url("../../images/Sponsor2.jpg");
+    border: 2px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .FirstSponsorText{
+    margin-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+  }
+
+  .SecondSponsorText{
+    margin-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+  }
+
+  .ThirdSponsorText{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+  }
+
+  #CollectiveSponsorDesc{
+    height: calc(100% - 10% - 30% - 30%);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../images/SponsorsFashionShow.jpg");
+    position: relative;
+  }
+
+  #CollectiveSponsorTextBox{
+    /* background-color: black; */
+    /* background-color: transparent; */
+    background-color: rgb(4, 23, 31);
+    opacity: 0.8;
+    height: 100%;
+    width: 40%;
+    /*min-width: 1200px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  #InnerCollectiveSponsorText{
+    width: 95%;
+    height: 80%;
+     /*border: 2px solid red; */
+    font-size: 2.0vw;
+  }
+
+}
+
+
+@media only screen and (max-width: 766px){
+   #SponsorsPageContainer{
+    /*background-color: #f5ea74;*/
+    background-color: black;
+    height: 200%;
+    width: 100%;
+  }
+
+  #SponsorTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    /*margin-left: calc((100% - 130px) / 2);*/
+    height: 10%;
+    /*border: 2px solid green;*/
+  }
+
+  #Sponsor1{
+    height: calc(30%);
+    width: 100%;
+    border-bottom: 5px solid #c68803;
+    border-top: 5px solid #c68803;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 2px solid red;*/
+  }
+
+  #Sponsor2{
+    height: calc(40%);
+    width: 100%;
+    /*border-bottom: 2px solid black;*/
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     border-bottom: 5px solid #c68803;
+    /*border: 5px solid blue;*/
+  }
+
+  #CollectiveSponsorDesc{
+    height: calc(50% - 10%);
+    width: 100%;
+    /* background-color: green; */
+    border-bottom: 2px solid black;
+  }
+
+  .SponsorTextArea{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*margin-left:5%;*/
+    /*border: 5px solid grey;*/
+    margin-top: 20px;
+  }
+  
+  /*#SponsorTextArea1 {*/
+  /*  margin-right: 5%;*/
+  /*}*/
+
+  #Sponsor1Image{
+    /*width: 300px;*/
+    /*height: 300px;*/
+    width: 200px;
+    height: 200px;
+    /*border-radius: 200px;*/
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-image: url("../../images/Sponsor1.png");
+    /*border: 2px solid red;*/
+    /*margin-left: 5%;*/
+    margin-top: 20px;
+  }
+
+  #Sponsor2Image{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-image: url("../../images/Sponsor2.jpg");
+    margin-top: 20px;
+    /*border: 2px solid black;*/
+    /*margin-left: 5%;*/
+    /*margin-right: 5%;*/
+  }
+
+  .FirstSponsorText{
+    margin-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.0vw;
+  }
+
+  .SecondSponsorText{
+    margin-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.0vw;
+  }
+
+  .ThirdSponsorText{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.0vw;
+  }
+
+  #CollectiveSponsorDesc{
+    height: calc(100% - 10% - 30% - 40%);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../images/SponsorsFashionShow.jpg");
+    position: relative;
+  }
+
+  #CollectiveSponsorTextBox{
+    /* background-color: black; */
+    /* background-color: transparent; */
+    background-color: rgb(4, 23, 31);
+    opacity: 0.8;
+    height: 100%;
+    width: 40%;
+    /*min-width: 1200px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  #InnerCollectiveSponsorText{
+    width: 90%;
+    height: 80%;
+     /*border: 2px solid red; */
+    font-size: 3.0vw;
+  }
+
+}

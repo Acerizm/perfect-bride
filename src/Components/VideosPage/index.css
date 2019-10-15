@@ -1,0 +1,32 @@
+@media only screen and (min-width: 1200px){
+    #VideosPageContainer{
+        height: 100%;
+        width: 100%;
+        /*background-color: black;*/
+    }
+    
+    #PageTitle{
+        font-family: Arial;
+        color: #c68803;
+        font-size: 2.5vw;
+        height: 10%;
+        width: 100%;
+        /*border: 2px solid red;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #MainContainer{
+        border: 2px solid green;
+        height:90%;
+    }
+    
+    #MainVideo{
+        height: 80%;
+        width: 80%;
+        margin-left: calc((100% - 80%) / 2 );
+        margin-top: 50px;
+        border: 2px solid red;
+    }
+}

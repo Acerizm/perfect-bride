@@ -1,0 +1,3 @@
+export const PerfectBrideTitle = "Perfect Bride"
+export const Intro1 = "Perfect Bride emphasis on Fashion, Culture and Travel showcase the Trend of All-Wedding and Modern Fashion Culture.  Base in Singapore and operates in Hong Kong it works with more than 50 member countries. Perfect Bride Competition is the leading Travel and Bridal Fashion Event in Asia has always guided to the trend of Modern Wedding Fashion, Travel and Culture..";
+export const Intro2 = "This event integrate and utilize all-round innovation platform for Honeymoon Travel and Fashion with new 'Internet +' competition mode combing Fashion and Tourism motivating 'Love Travel, Love Beauty, Love Freedom' upgrading the Cultural aspect ​​of the whole event. "
