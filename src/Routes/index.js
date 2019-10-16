@@ -3,4 +3,4 @@ export const ORGANIZER_PAGE = "/Organizer";
 export const SPONSORS_PAGE = "/Sponsors";
 export const GALLERY_PAGE = "/Gallery";
 export const VIDEOS_PAGE = "/Videos";
-
+export const NEWS_PAGE = "/News";
