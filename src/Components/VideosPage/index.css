@@ -3,6 +3,11 @@
         height: 100%;
         width: 100%;
         /*background-color: black;*/
+        display: flex;
+        /*justify-content: center;*/
+        align-items: center;
+        flex-direction: column;
+        /*border: 2px solid black;*/
     }
     
     #PageTitle{
@@ -17,6 +22,14 @@
         justify-content: center;
     }
     
+    #VideoContainer{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     #MainContainer{
         border: 2px solid green;
         height:90%;
@@ -29,4 +42,97 @@
         margin-top: 50px;
         border: 2px solid red;
     }
+    
+    /*#Video1{*/
+    /*    width:80%;*/
+    /*    height: 200px;*/
+    /*}*/
+}
+
+@media only screen and (min-width: 768px) and (max-width:1199.99px){
+    #VideosPageContainer{
+        height: 100%;
+        width: 100%;
+        /*background-color: black;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /*border: 2px solid black;*/
+    }
+    
+    #PageTitle{
+        font-family: Arial;
+        color: #c68803;
+        font-size: 5.5vw;
+        height: 10%;
+        width: 100%;
+        /*border: 2px solid red;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    #MainContainer{
+        border: 2px solid green;
+        height:90%;
+    }
+    
+    #MainVideo{
+        height: 80%;
+        width: 80%;
+        margin-left: calc((100% - 80%) / 2 );
+        margin-top: 50px;
+        border: 2px solid red;
+    }
+    
+    /*#Video1{*/
+    /*    width:80%;*/
+    /*    height: 200px;*/
+    /*}*/
+}
+
+@media only screen and (max-width: 767.99px){
+    #VideosPageContainer{
+        height: 100%;
+        width: 100%;
+        /*background-color: black;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /*border: 2px solid black;*/
+    }
+    
+    #PageTitle{
+        font-family: Arial;
+        color: #c68803;
+        font-size: 5.5vw;
+        height: 10%;
+        width: 100%;
+        /*border: 2px solid red;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    #MainContainer{
+        border: 2px solid green;
+        height:90%;
+    }
+    
+    #MainVideo{
+        height: 80%;
+        width: 80%;
+        margin-left: calc((100% - 80%) / 2 );
+        margin-top: 50px;
+        border: 2px solid red;
+    }
+    
+    /*#Video1{*/
+    /*    width:80%;*/
+    /*    height: 200px;*/
+    /*}*/
 }
