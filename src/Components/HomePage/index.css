@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/1.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/1.jpg");
   }
 
   #TextArea{
@@ -63,7 +63,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/2.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/2.jpg");
   }
 
   #OtherImages2{
@@ -75,7 +75,7 @@
     grid-column: 3;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../images/19.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/19.jpg");
   }
 
   #OtherImages3{
@@ -87,7 +87,7 @@
     grid-column: 4;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../images/3.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/3.jpg");
   }
 }
 
@@ -118,7 +118,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/1.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/1.jpg");
   }
 
   #TextArea{
@@ -176,7 +176,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/2.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/2.jpg");
     transition: 0.8s;
     border: 5px solid #c68803;
   }
@@ -191,7 +191,7 @@
     grid-column: 3;
     background-repeat: no-repeat;
     /*background-size: cover;*/
-    background-image: url("../../images/19.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/19.jpg");
     border: 5px solid #c68803;
   }
   
@@ -204,7 +204,7 @@
     grid-column: 1;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../images/19.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/19.jpg");
     transition: 0.8s;
     border: 5px solid #c68803;
   }
@@ -217,7 +217,7 @@
     grid-column: 5;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../images/19.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/19.jpg");
     transition: 0.8s;
     border: 5px solid #c68803;
   }
@@ -230,7 +230,7 @@
     /*grid-column: 4;*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../images/3.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/3.jpg");
     border: 5px solid #c68803;
   }
   
@@ -263,7 +263,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/1.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/1.jpg");
   }
 
   #TextArea{
@@ -321,7 +321,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/2.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/2.jpg");
     transition: 0.8s;
     border: 2px solid #c68803;
   }
@@ -336,7 +336,7 @@
     grid-column: 3;
     background-repeat: no-repeat;
     /*background-size: cover;*/
-    background-image: url("../../images/19.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/19.jpg");
     border: 2px solid #c68803;
   }
   
@@ -349,7 +349,7 @@
     grid-column: 1;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../images/19.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/19.jpg");
     transition: 0.8s;
     border: 2px solid #c68803;
   }
@@ -362,7 +362,7 @@
     grid-column: 5;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../images/19.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/19.jpg");
     transition: 0.8s;
     border: 2px solid #c68803;
   }
@@ -375,7 +375,7 @@
     /*grid-column: 4;*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../images/3.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/3.jpg");
     border: 2px solid #c68803;
   }
 }

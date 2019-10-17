@@ -27,7 +27,7 @@ const NewsPage = (props) => {
 const DesktopNewsPage = (props) => {
 
     return (
-        <div>
+        <div id="NewsPageContainer">
         
         </div>
     )
@@ -46,3 +46,5 @@ const MobileNewsPage = (props) => {
         </div>
         )
 }
+
+export default NewsPage;

@@ -10,6 +10,7 @@ import OrganizerPage from "./Components/OrganizerPage/index.js";
 import SponsorsPage from "./Components/SponsorsPage/index.js";
 import GalleryPage from "./Components/GalleryPage/index.js";
 import VideosPage from "./Components/VideosPage/index.js";
+import NewsPage from "./Components/NewsPage/index.js";
 
 console.disableYellowBox = true;
 
@@ -23,6 +24,7 @@ ReactDOM.render(
       <Route exact path={ROUTES.SPONSORS_PAGE} component={SponsorsPage}></Route>
       <Route exact path={ROUTES.GALLERY_PAGE} component={GalleryPage}></Route>
       <Route exact path={ROUTES.VIDEOS_PAGE} component={VideosPage}></Route>
+      <Route exact path={ROUTES.NEWS_PAGE} component={NewsPage}></Route>
       <Footer/>
     </div>
   </Router>
