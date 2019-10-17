@@ -1,19 +1,27 @@
 import React,{Component} from "react";
 //import css here
 import "./index.css";
-import * as Images from "../../images/index.js";
+// import * as Images from "../../images/index.js";
 
 //import window height here
 import {useWindowWidth, useWindowHeight} from "../ResponsiveComponent/index.js";
 import {minDesktopWidth,minMobileWidth,minTabletWidth} from "../ResponsiveComponent/index.js";
 
+// const imageArray = [
+//   Images.Image1,
+//   Images.Image2,
+//   Images.Image3,
+//   Images.Image4,
+//   Images.Image5,
+// ];
+
 const imageArray = [
-  Images.Image1,
-  Images.Image2,
-  Images.Image3,
-  Images.Image4,
-  Images.Image5,
-];
+  "https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/1.jpg",
+  "https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/2.jpg",
+  "https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/3.jpg",
+  "https://res.cloudinary.com/misstourismasia/image/upload/v1571276816/4.jpg",
+  "https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/11.jpg",
+  ]
 
 const titleArray = [
   "Title 1",
@@ -95,17 +103,17 @@ class GalleryPage extends Component {
         </div>
         <div id="CurrentImageTitle"><span>{currentTitle}</span></div>
         <div id="AllImagesRow">
-          <img src={Images.Image1} className="AllImages" alt="Image 1" 
+          <img src={"https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/1.jpg"} className="AllImages" alt="Image 1" 
           onClick={() => this.setState({currentImage: imageArray[0],currentTitle: titleArray[0],currentImageIndex:0,currentTitleIndex:0})}
           style={{opacity: currentImageIndex == 0 ? "1" : "0.6"}}
           />
-          <img src={Images.Image2} className="AllImages" alt="Image 2" onClick={() => this.setState({currentImage: imageArray[1],currentTitle: titleArray[1],currentImageIndex:1,currentTitleIndex:1})}
+          <img src={"https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/2.jpg"} className="AllImages" alt="Image 2" onClick={() => this.setState({currentImage: imageArray[1],currentTitle: titleArray[1],currentImageIndex:1,currentTitleIndex:1})}
             style={{opacity: currentImageIndex == 1 ? "1" : "0.6"}}/>
-          <img src={Images.Image3} className="AllImages" alt="Image 3" onClick={() => this.setState({currentImage: imageArray[2],currentTitle: titleArray[2],currentImageIndex:2,currentTitleIndex:2})}
+          <img src={"https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/3.jpg"} className="AllImages" alt="Image 3" onClick={() => this.setState({currentImage: imageArray[2],currentTitle: titleArray[2],currentImageIndex:2,currentTitleIndex:2})}
             style={{opacity: currentImageIndex == 2 ? "1" : "0.6"}}/>
-          <img src={Images.Image4} className="AllImages" alt="Image 4" onClick={() => this.setState({currentImage: imageArray[3],currentTitle: titleArray[3],currentImageIndex:3,currentTitleIndex:3})}
+          <img src={"https://res.cloudinary.com/misstourismasia/image/upload/v1571276816/4.jpg"} className="AllImages" alt="Image 4" onClick={() => this.setState({currentImage: imageArray[3],currentTitle: titleArray[3],currentImageIndex:3,currentTitleIndex:3})}
             style={{opacity: currentImageIndex == 3 ? "1" : "0.6"}}/>
-          <img src={Images.Image5} className="AllImages" alt="Image 5" onClick={() => this.setState({currentImage: imageArray[4],currentTitle: titleArray[4],currentImageIndex:4,currentTitleIndex:4})}
+          <img src={"https://res.cloudinary.com/misstourismasia/image/upload/v1571276817/11.jpg"} className="AllImages" alt="Image 5" onClick={() => this.setState({currentImage: imageArray[4],currentTitle: titleArray[4],currentImageIndex:4,currentTitleIndex:4})}
             style={{opacity: currentImageIndex == 4 ? "1" : "0.6"}}/>
         </div>
       </div>

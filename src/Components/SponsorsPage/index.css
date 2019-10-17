@@ -56,7 +56,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/Sponsor1.png");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276818/Sponsor1.png");
     border: 2px solid black;
     margin-left: 10%;
   }
@@ -68,7 +68,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/Sponsor2.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276818/Sponsor1.png");
     border: 2px solid black;
     margin-left: 10%;
   }
@@ -95,7 +95,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../images/SponsorsFashionShow.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276818/SponsorsFashionShow.jpg");
     position: relative;
   }
 
@@ -203,7 +203,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/Sponsor1.png");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276818/Sponsor1.png");
     /*border: 2px solid red;*/
     margin-left: 5%;
   }
@@ -215,7 +215,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/Sponsor2.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276818/Sponsor2.jpg");
     border: 2px solid black;
     margin-left: 5%;
     margin-right: 5%;
@@ -246,7 +246,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../images/SponsorsFashionShow.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276818/SponsorsFashionShow.jpg");
     position: relative;
   }
 
@@ -353,7 +353,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/Sponsor1.png");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276818/Sponsor1.png");
     /*border: 2px solid red;*/
     /*margin-left: 5%;*/
     margin-top: 20px;
@@ -366,7 +366,7 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: cover;
-    background-image: url("../../images/Sponsor2.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276818/Sponsor2.jpg");
     margin-top: 20px;
     /*border: 2px solid black;*/
     /*margin-left: 5%;*/
@@ -398,7 +398,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../../images/SponsorsFashionShow.jpg");
+    background-image: url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276818/SponsorsFashionShow.jpg");
     position: relative;
   }
 
