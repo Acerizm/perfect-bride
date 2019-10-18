@@ -111,7 +111,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199.99px){
+@media only screen and (min-width: 768px) and (max-width: 1199.9px){
    #GalleryPageMainContainer {
     border: 2px solid black;
     height: 100%;
@@ -224,7 +224,7 @@
   }
 }
 
-@media only screen and (max-width: 767.99px) {
+@media only screen and (max-width: 767.9px) {
    #GalleryPageMainContainer {
     border: 2px solid black;
     height: 100%;
