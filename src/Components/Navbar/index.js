@@ -57,7 +57,6 @@ const SideNavbar = (props) => {
       <Link to={ROUTES.SPONSORS_PAGE} className="link"><span className="NavLink">Sponsors</span></Link>
       <Link to={ROUTES.GALLERY_PAGE} className="link"><span className="NavLink">Gallery</span></Link>
       <Link to={ROUTES.VIDEOS_PAGE} className="link"><span className="NavLink">Videos</span></Link>
-      <Link to={ROUTES.NEWS_PAGE} className="link"><span className="NavLink">News</span></Link>
     </div>
   )
 }

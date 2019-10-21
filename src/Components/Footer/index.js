@@ -47,9 +47,9 @@ const MobileFooter = (props) => {
   return(
     <div id="FooterContainer">
      <span className="texts" id="Text1" style={{}}>{TEXT.text1}</span>
-        <span className="texts" style={{}}>{TEXT.text2}</span>
-        <span className="texts" style={{}}>Email:</span>
-        <span className="texts" style={{}}>{TEXT.text3}</span>
+        <span className="texts" id="Text2" style={{}}>{TEXT.text2}</span>
+        <span className="texts" id="Email"style={{}}>Email:</span>
+        <span className="texts" id="Text3" style={{}}>{TEXT.text3}</span>
     </div>
     )
 }
