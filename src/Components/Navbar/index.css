@@ -5,7 +5,7 @@
   }
 
   #PerfectBrideLogo{
-    background-image:url("../../images/perfectBrideLogo.jpg");
+    background-image:url("https://res.cloudinary.com/misstourismasia/image/upload/v1571276820/perfectBrideLogo.jpg");
     height: 70%;
     width: 500px;
     background-repeat: no-repeat;
@@ -37,9 +37,9 @@
 }
 
 
-@media only screen and (min-width: 768px) and (max-width:1199.99px){
+@media only screen and (min-width: 768px) and (max-width:1199.9px){
   #NavBarContainer{
-    height: 100px;
+    height: 15vh;
     width: 100%;
     /* border-bottom: 2px solid black; */
     display: flex;
@@ -52,9 +52,9 @@
   }
   
   #PerfectBrideHeadingContainer{
-    /* border: 2px solid black; */
+     /*border: 2px solid black; */
     height: 100%;
-    width: 350px;
+    width: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@
   }
   
   #PerfectBrideHeading{
-    font-size: 40px;
+    font-size: 4.5vw;
     display: inline-block;
     /* border: 2px solid red; */
     width: 100%;
@@ -70,10 +70,10 @@
   }
   
   #HamburgerMenu{
-    /* border: 2px solid black; */
+     /*border: 2px solid green; */
     height: 80%;
     width: 100px; 
-    margin-left: calc(100% - 350px - 100px - 5% - 3%);
+    margin-left: calc(100% - 30vw - 100px - 5% - 3%);
   }
 
 
@@ -119,10 +119,11 @@
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 10vw;
     color: #818181;
     display: block;
     transition: 0.3s;
+    /*border: 2px solid green;*/
   }
 
   .sidenav a:hover {
@@ -135,14 +136,15 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    /*border: 2px solid green;*/
   }
 }
 
-@media only screen and (max-width:767.99px){
+@media only screen and (max-width:767.9px){
    #NavBarContainer{
-    height: 100px;
+    height: 10vh;
     width: 100%;
-    /* border-bottom: 2px solid black; */
+     border-bottom: 2px solid black; 
     display: flex;
     flex-direction: row;
     position: sticky;
@@ -153,9 +155,9 @@
   }
   
   #PerfectBrideHeadingContainer{
-    /* border: 2px solid black; */
+     /*border: 2px solid black; */
     height: 100%;
-    width: 350px;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,7 +165,7 @@
   }
   
   #PerfectBrideHeading{
-    font-size: 40px;
+    font-size: 7.5vw;
     display: inline-block;
     /* border: 2px solid red; */
     width: 100%;
@@ -174,7 +176,7 @@
     /* border: 2px solid black; */
     height: 80%;
     width: 100px; 
-    margin-left: calc(100% - 350px - 100px - 5% - 3%);
+    margin-left: calc(100% - 50vw - 100px - 5% - 3%);
   }
 
 

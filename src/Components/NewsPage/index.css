@@ -1,0 +1,7 @@
+@media only screen and (min-width: 1200px){
+    #NewsPageContainer{
+        height:100%;
+        width:100%;
+        background-color: black;
+    }
+}
