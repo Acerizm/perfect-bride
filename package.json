@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.5.1",
-    "@material-ui/icons": "^4.4.3",
+    "@material-ui/icons": "^4.11.2",
     "g": "^2.0.1",
     "git": "^0.1.5",
     "netlify-cli": "^2.19.0",
